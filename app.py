@@ -3,8 +3,6 @@ from utils import is_valid_currency, convert_currency
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
-
 app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET_KEY") 
 
